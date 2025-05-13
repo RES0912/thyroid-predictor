@@ -7,7 +7,6 @@ from sklearn.metrics import classification_report
 # Sample Data: Replace with your actual data or load from a CSV
 data = {"D:\data.csv"}
 
-# Create DataFrame
 df = pd.DataFrame(data)
 
 # Split the data into features and target variable
