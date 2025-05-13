@@ -5,6 +5,8 @@ from catboost import CatBoostClassifier
 # Load model
 model = CatBoostClassifier()
 model.load_model("catboost_thyroid_model.cbm")
+model.save_model("catboost_thyroid_model.cbm")
+
 
 
 # Example input UI
