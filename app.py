@@ -6,7 +6,6 @@ from catboost import CatBoostClassifier
 model = CatBoostClassifier()
 model.load_model("catboost_thyroid_model.cbm")
 
-st.title("Thyroid Condition Predictor")
 
 # Example input UI
 age = st.number_input("Age", min_value=1, max_value=100, value=30)
