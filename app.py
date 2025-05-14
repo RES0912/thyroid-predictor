@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-from catboost import CatBoostClassifier
+from catboost import CatBoostClassifier 
 
 # Load the pre-trained CatBoost model
 model = CatBoostClassifier()
